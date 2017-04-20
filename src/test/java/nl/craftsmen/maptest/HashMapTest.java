@@ -20,7 +20,7 @@ public class HashMapTest {
 
     @Test
     @PerfTest(invocations = 5)
-    @Required(max = 1200)
+    @Required(max = 1200, average = 250)
     public void testMapPerformance() {
         fillMap();
         findRandomElement();
