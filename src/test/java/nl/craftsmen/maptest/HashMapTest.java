@@ -14,7 +14,7 @@ public class HashMapTest {
     private static final int NUMBER_OF_ELEMENTS = 30000;
 
     @Rule
-    public ContiPerfRule i = new ContiPerfRule();
+    public ContiPerfRule contiPerfRule = new ContiPerfRule();
 
     private Map<MyKey, MyElement> mapUnderTest = new HashMap<>();
 
